@@ -1,0 +1,57 @@
+{
+  "name": "@bullinf/x402",
+  "version": "0.1.0",
+  "description": "Bull.inf x402 agent wallet kit — agents that pay themselves in $ANSEM",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "bull-x402-mcp": "./dist/mcp.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config jest.config.cjs",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "bullinf",
+    "x402",
+    "solana",
+    "ansem",
+    "openai"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.2",
+    "bs58": "^6.0.0",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.10",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "typescript": "^5.8.2"
+  },
+  "optionalDependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevvGwardo/bull-x402.git"
+  }
+}

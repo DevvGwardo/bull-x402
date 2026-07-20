@@ -1,0 +1,20 @@
+{
+  "domain": "bull.x402.v1",
+  "seed_hex": "1111111111111111111111111111111111111111111111111111111111111111",
+  "payer": "F25s3DdjXdCxYBhh2z8FBusVEMT4b9bGNFVKJi3wFoF4",
+  "message_utf8": "bull.x402.v1|F25s3DdjXdCxYBhh2z8FBusVEMT4b9bGNFVKJi3wFoF4|F25s3DdjXdCxYBhh2z8FBusVEMT4b9bGNFVKJi3wFoF4|3JF3sEqM796hk5WFqA6EtmEwJQ9quALszsfJyvXNQKy3|4Ss5JMkXAD9Z7cktFEdrqeMuT6jGMF1pVozTyPHZ6zT4|1000000|1893456000|fixture-nonce-1",
+  "signature_b58": "4isE3dq7KTjd2krt2ybH7BGYUccHLZ7EJFVi9k47Xrdu2rbYx7s11cw9HmMZ3NNK6iUydKMBpwgpoxHh4FHxFCym",
+  "payload": {
+    "scheme": "ansem-batch",
+    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+    "asset": "4Ss5JMkXAD9Z7cktFEdrqeMuT6jGMF1pVozTyPHZ6zT4",
+    "payTo": "3JF3sEqM796hk5WFqA6EtmEwJQ9quALszsfJyvXNQKy3",
+    "payer": "F25s3DdjXdCxYBhh2z8FBusVEMT4b9bGNFVKJi3wFoF4",
+    "channelId": "F25s3DdjXdCxYBhh2z8FBusVEMT4b9bGNFVKJi3wFoF4",
+    "cumulativeMicros": 1000000,
+    "expiry": 1893456000,
+    "nonce": "fixture-nonce-1",
+    "signature": "4isE3dq7KTjd2krt2ybH7BGYUccHLZ7EJFVi9k47Xrdu2rbYx7s11cw9HmMZ3NNK6iUydKMBpwgpoxHh4FHxFCym"
+  },
+  "payment_signature_header": "eyJzY2hlbWUiOiJhbnNlbS1iYXRjaCIsIm5ldHdvcmsiOiJzb2xhbmE6NWV5a3Q0VXNGdjhQOE5KZFRSRXBZMXZ6cUtxWkt2ZHAiLCJhc3NldCI6IjRTczVKTWtYQUQ5Wjdja3RGRWRycWVNdVQ2akdNRjFwVm96VHlQSFo2elQ0IiwicGF5VG8iOiIzSkYzc0VxTTc5NmhrNVdGcUE2RXRtRXdKUTlxdUFMc3pzZkp5dlhOUUt5MyIsInBheWVyIjoiRjI1czNEZGpYZEN4WUJoaDJ6OEZCdXNWRU1UNGI5YkdORlZLSmkzd0ZvRjQiLCJjaGFubmVsSWQiOiJGMjVzM0RkalhkQ3hZQmhoMno4RkJ1c1ZFTVQ0YjliR05GVktKaTN3Rm9GNCIsImN1bXVsYXRpdmVNaWNyb3MiOjEwMDAwMDAsImV4cGlyeSI6MTg5MzQ1NjAwMCwibm9uY2UiOiJmaXh0dXJlLW5vbmNlLTEiLCJzaWduYXR1cmUiOiI0aXNFM2RxN0tUamQya3J0MnliSDdCR1lVY2NITFo3RUpGVmk5azQ3WHJkdTJyYll4N3MxMWN3OUhtTVozTk5LNmlVeWRLTUJwd2dwb3hIaDRGSHhGQ3ltIn0="
+}

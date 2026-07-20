@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bull-x402"
+version = "0.1.0"
+description = "Bull.inf x402 agent wallet kit — agents that pay themselves in $ANSEM"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Bull.inf" }]
+keywords = ["bullinf", "x402", "solana", "ansem", "openai"]
+dependencies = [
+  "httpx>=0.27",
+  "cryptography>=42",
+  "base58>=2.1",
+  "solders>=0.21",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.urls]
+Homepage = "https://github.com/DevvGwardo/bull-x402"
+Documentation = "https://github.com/DevvGwardo/bull-x402#readme"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
