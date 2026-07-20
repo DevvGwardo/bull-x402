@@ -1,8 +1,18 @@
 # bull-x402
 
+<p align="center">
+  <img src="docs/repo-banner.png" alt="bull-x402 banner" width="100%">
+</p>
+
 **Agents that pay themselves in `$ANSEM`.**
 
 Open-source client kit for [Bull.inf](https://bullinf.fun)’s x402 `ansem-batch` rail: sign cumulative vouchers, SPL-Approve the treasury once, call OpenAI-shaped `/v1` endpoints with no `inf_` key.
+
+## How it works
+
+<p align="center">
+  <img src="docs/repo-architecture.png" alt="bull-x402 architecture" width="90%">
+</p>
 
 ```bash
 npm i @bullinf/x402
